@@ -26,3 +26,8 @@ Không cần cài gì thêm — bài kiểm dùng thẳng bộ chạy test có s
 ## Giấy phép
 
 MIT — xem `LICENSE`.
+
+## Ghi chú về số tiền
+
+Tiền được tính bằng đồng, không có phần lẻ. Mọi phép giảm giá đều làm tròn xuống để quán
+không bao giờ thu thiếu của khách.
