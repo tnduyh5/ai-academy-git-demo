@@ -1,0 +1,10 @@
+{
+  "name": "quan-ly-don-hang",
+  "version": "1.0.0",
+  "description": "Repo demo dạy Git & GitHub cho AI Academy",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "MIT"
+}
