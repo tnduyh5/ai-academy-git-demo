@@ -16,5 +16,6 @@ export function tinhTamTinh(monAn) {
  * @returns {number} số tiền phải trả
  */
 export function apGiamGia(tamTinh, phanTram) {
-  return tamTinh - (tamTinh * phanTram) / 100;
+  // Tiền Việt không có phần lẻ. Làm tròn XUỐNG để quán không thu thiếu của khách.
+  return Math.floor(tamTinh - (tamTinh * phanTram) / 100);
 }
