@@ -7,3 +7,7 @@ test("gộp hai đơn của cùng một bàn", () => {
   const don2 = [{ ten: "Trà đá", gia: 3000, soLuong: 2 }];
   assert.equal(tinhGioHang([don1, don2]), 51000);
 });
+
+test("giỏ rỗng thì tổng bằng 0", () => {
+  assert.equal(tinhGioHang([]), 1); // sai có chủ ý: sẽ được sửa ở commit sau
+});
