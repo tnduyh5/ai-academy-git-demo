@@ -9,5 +9,5 @@ test("gộp hai đơn của cùng một bàn", () => {
 });
 
 test("giỏ rỗng thì tổng bằng 0", () => {
-  assert.equal(tinhGioHang([]), 1); // sai có chủ ý: sẽ được sửa ở commit sau
+  assert.equal(tinhGioHang([]), 0);
 });
