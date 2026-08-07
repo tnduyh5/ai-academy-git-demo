@@ -17,3 +17,7 @@ test("đơn rỗng thì tổng bằng 0", () => {
 test("giảm 10 phần trăm", () => {
   assert.equal(apGiamGia(100000, 10), 90000);
 });
+
+test("giảm 15 phần trăm ra số nguyên đồng", () => {
+  assert.equal(apGiamGia(96000, 15), 81600);
+});
