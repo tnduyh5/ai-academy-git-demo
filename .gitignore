@@ -1,0 +1,18 @@
+# Thư viện tải về
+node_modules/
+
+# Biến môi trường — TUYỆT ĐỐI không commit
+.env
+.env.*
+!.env.example
+
+# Kết quả build
+dist/
+build/
+
+# Rác của hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
