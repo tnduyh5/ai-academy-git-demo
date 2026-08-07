@@ -1,0 +1,11 @@
+# Mỗi dòng: mẫu đường dẫn rồi tới người/đội sở hữu.
+# Dòng khớp SAU thắng dòng khớp trước — nên luật chung để trên, luật riêng để dưới.
+
+# Mặc định: mọi thứ trong repo
+*                       @tnduyh5
+
+# Phần tính tiền — đụng vào là đụng tiền của khách, bắt buộc chủ sở hữu duyệt
+/src/donhang.js         @tnduyh5
+
+# Quy trình tự động
+/.github/workflows/     @tnduyh5
