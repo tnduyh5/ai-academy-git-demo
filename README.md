@@ -1,5 +1,8 @@
 # Quản lý đơn hàng — repo demo của AI Academy
 
+[![CI](https://github.com/tnduyh5/ai-academy-git-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/tnduyh5/ai-academy-git-demo/actions/workflows/ci.yml)
+[![Giấy phép: MIT](https://img.shields.io/badge/gi%E1%BA%A5y%20ph%C3%A9p-MIT-blue.svg)](https://github.com/tnduyh5/ai-academy-git-demo/blob/main/LICENSE)
+
 Repo này tồn tại để **dạy Git và GitHub**. Mọi nhánh, Pull Request, Issue và lần chạy CI ở
 đây đều được dựng có chủ ý để minh hoạ một bài học cụ thể trong track
 `06-git-github` của AI Academy.
